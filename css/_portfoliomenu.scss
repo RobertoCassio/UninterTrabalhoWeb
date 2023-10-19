@@ -1,0 +1,38 @@
+@import "breakpoints";
+.portfolio-menu{
+    position: absolute;
+    display:flex;
+    gap:25%;
+    margin: 5% auto;
+    width:95vw;
+    height: 2%;
+    left: 0px;
+    background-color: $main-color;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: end;
+    padding:10px;
+    p{
+        display:inline;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        color: #FFFFFF;
+
+    }
+    .portfolio{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        border: none;
+        background: $secondary-color;
+        border-radius: 10px;
+        padding:10px;
+        &:hover{
+            cursor:pointer; //Cursor do Mouse se torna ponteiro quando passa sobre o botão
+        }
+    }
+}

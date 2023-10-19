@@ -1,0 +1,58 @@
+$main-color: #00ADB5; //Aqui utilizamos o SCSS para armazenar varíaveis que para as cores padrões a serem utilizadas para evitar repetição de código
+$secondary-color:#D9D9D9;
+$terciary-color: #7D7676;
+@import 'portfoliomenu';
+@import 'menu';
+@import 'home';
+@import "aboutme";
+@import "contacts"; 
+@import "breakpoints";//Import das páginas que fizemos a parte para manter o código organizado
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//Import da fonte a ser utilizada
+.formation{
+    width:100vw; //Utilizando vw para que a div ocupe toda a página
+    height:10vh;
+    h1{
+        text-align:center;
+    }
+}
+.formation-wrap{
+    background-color: $secondary-color; //Utilização da varíavel second color com a cor já armazenada lá em cima
+}
+.formation-container{
+    background-color: $secondary-color;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @include medium {
+        flex-direction: row;
+       }
+    h1{
+        text-align: center;
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+    .formation-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 100px;
+        align-items: center;
+        width:75%;
+
+        
+        h4{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0;
+        }
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px; 
+            margin: 0;
+        }
+    }
+}
