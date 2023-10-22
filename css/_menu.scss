@@ -2,8 +2,8 @@
     width: 100%;
     left: 0px;
     bottom:0;
-    z-index:999;
-    position:fixed;
+    z-index:999; //Para manter o menu a frente de todos os elementos
+    position:fixed; //Posicionamento fixo independente da movimentação da página
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -23,14 +23,14 @@
 
     ul{
         display:flex;
-        justify-content: space-evenly;
+        justify-content: space-evenly; //Espaçamento uniforme entre os itens
         display:flex;
         background-color:$main-color;
-        border-radius: 10px;
+        border-radius: 10px; //Deixar a borda levemente arredondada
         
         li{
             padding: 19.5px 10px;
-            list-style: none;
+            list-style: none; //Para remover os marcadore da lista.
             a{
                 text-decoration: none;
                 color: #FFFFFF;

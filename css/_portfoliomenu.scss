@@ -2,7 +2,7 @@
 .portfolio-menu{
     position: absolute;
     display:flex;
-    gap:25%;
+    gap:25%; //Espaçamento entro os elementos
     margin: 5% auto;
     width:95vw;
     height: 2%;
@@ -10,7 +10,7 @@
     background-color: $main-color;
     border-radius: 10px;
     align-items: center;
-    justify-content: end;
+    justify-content: end; //Para alinhar os elementos a direita
     padding:10px;
     p{
         display:inline;

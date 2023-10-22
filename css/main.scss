@@ -6,15 +6,15 @@ $terciary-color: #7D7676;
 @import 'home';
 @import "aboutme";
 @import "contacts"; 
-@import "breakpoints";//Import das páginas que fizemos a parte para manter o código organizado
+@import "breakpoints";//Import dos estilos das  páginas a parte 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-//Import da fonte a ser utilizada
+//Import da fonte a ser utilizada (Poppins
 .formation{
-    width:100vw; //Utilizando vw para que a div ocupe toda a página
+    width:100vw; //Utilizando vw para que a div ocupe toda a largura página
     height:10vh;
     h1{
-        text-align:center;
+        text-align:center; //Centraliza o texto do elemento h1
     }
 }
 .formation-wrap{
@@ -26,8 +26,8 @@ $terciary-color: #7D7676;
     display: flex;
     flex-direction: column;
     text-align: center;
-    @include medium {
-        flex-direction: row;
+    @include medium { //Quando o tamanho da tela atingir o tamanho "medium" definido no _breakpoints.scss
+        flex-direction: row; //Altera a direção do flexbox para horizontal
        }
     h1{
         text-align: center;
@@ -37,7 +37,7 @@ $terciary-color: #7D7676;
     .formation-wrapper{
         display: flex;
         flex-direction: column;
-        margin: 0 auto 100px;
+        margin: 0 auto 100px; //Margens par espaçamento e centralização da div
         align-items: center;
         width:75%;
 
@@ -50,9 +50,7 @@ $terciary-color: #7D7676;
         }
         p{
             font-weight: 500;
-            font-size: 20px;
-            line-height: 30px; 
-            margin: 0;
+            font-size: 15px;
         }
     }
 }

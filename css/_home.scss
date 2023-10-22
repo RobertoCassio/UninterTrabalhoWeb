@@ -1,9 +1,6 @@
-$main-color: #00ADB5;
-$secondary-color:#D9D9D9;
-$terciary-color: #7D7676;
-$background-color: hsl(300, 11%, 96%);
+$background-color: hsl(300, 11%, 96%); //Varíavel para a cor do fundo
 html{
-	scroll-behavior: smooth;
+	scroll-behavior: smooth; //Para fazer o efeito de rolagem suave quando um link é clicado
 }
 body{
 	margin: 0px;
@@ -23,9 +20,6 @@ body{
     display:block;
 	height: 100vh;
 	width: 100vw;
-	//background-image: url("../img/background-light.png");
-    //background-repeat: no-repeat;
-    //background-size:100%;
 	box-sizing: border-box;
 	padding: 0 10vh;
 }
