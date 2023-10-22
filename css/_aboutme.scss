@@ -1,9 +1,9 @@
 .about-me-container{
-    background-color: $secondary-color;
+    background-color: $secondary-color; //Utilizando a varíavel.
     display:block;
     width: 100%;
     .about-me{
-        text-align: center;
+        text-align: center; //Centralizar conteúdo
         margin-top:56px;
         
     }
@@ -12,7 +12,7 @@
     }
     .about-text-wrap{
         width:85%;
-        margin: 0 auto;
+        margin: 0 auto; //Centralizar a div
         
         p{
             font-weight: 500;
@@ -26,8 +26,8 @@
         width:90%;
         margin:10% auto;
         height: 62px;
-        background: rgba(125, 118, 118, 0.5);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: rgba(125, 118, 118, 0.5);//Cor do fundo com transparência, só mostrando 5%
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
         @include medium{
             margin:5% auto;
         }

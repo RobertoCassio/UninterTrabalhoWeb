@@ -1,11 +1,11 @@
-@import "breakpoints";
+@import "breakpoints"; //Importando os breakpoints
 .contact{
     margin-bottom: 10%;
     h1{
         text-align: center; //Centraliza o título
     }
     .form {
-        max-width: 80%;
+        max-width: 80%; //Largura do formulário
         margin: 0 auto;
         padding: 20px;
         background: #f5f5f5;
@@ -27,7 +27,7 @@
         padding: 10px 20px;
         cursor: pointer;
         &:hover {
-            background: #0056b3;
+            background: #0056b3; //Cor de fundo do botão alterado quando passar o mouse por cima
         }
     }
 
